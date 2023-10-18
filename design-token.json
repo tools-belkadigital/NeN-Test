@@ -2045,7 +2045,7 @@
     },
     "components": {
       "price-container": {
-        "$.12-strikethrought": {
+        "12-strikethrought": {
           "$type": "typography",
           "$value": {
             "fontFamily": "Everett",
@@ -2059,7 +2059,7 @@
             "styleId": "S:db92fdefc3a7fa9aa40c693aaea3b5a82c9cadef,"
           }
         },
-        "$.12-300": {
+        "12-300": {
           "$type": "typography",
           "$value": {
             "fontFamily": "Everett",
@@ -2073,7 +2073,7 @@
             "styleId": "S:c2f7e74aec7eba083854f687e0ec5411f8644aab,"
           }
         },
-        "$.18-400": {
+        "18-400": {
           "$type": "typography",
           "$value": {
             "fontFamily": "Everett",
@@ -2087,7 +2087,7 @@
             "styleId": "S:f776667b76ef21fbdd8831df54752520a459a82a,"
           }
         },
-        "$.22-400": {
+        "22-400": {
           "$type": "typography",
           "$value": {
             "fontFamily": "Everett",
@@ -2101,7 +2101,7 @@
             "styleId": "S:9be516c71db8ad11509a8530eae6575037743a60,"
           }
         },
-        "$.22-500": {
+        "22-500": {
           "$type": "typography",
           "$value": {
             "fontFamily": "Everett",
@@ -2115,7 +2115,7 @@
             "styleId": "S:9a1cc1b715e1f5eae51e2d23fe76bce0f0eb39fd,"
           }
         },
-        "$.30-strikethrought": {
+        "30-strikethrought": {
           "$type": "typography",
           "$value": {
             "fontFamily": "Everett",
@@ -2129,7 +2129,7 @@
             "styleId": "S:ccef7807fcdc72edec151108d5de6b07720de19b,"
           }
         },
-        "$.40-strikethrought": {
+        "40-strikethrought": {
           "$type": "typography",
           "$value": {
             "fontFamily": "Everett",
@@ -2143,7 +2143,7 @@
             "styleId": "S:7c50aee6c30c4053448303097f675d4ce7b9f83d,"
           }
         },
-        "$.50-strikethrought": {
+        "50-strikethrought": {
           "$type": "typography",
           "$value": {
             "fontFamily": "Everett",
@@ -2157,7 +2157,7 @@
             "styleId": "S:276e7060d12130dfbc6753f90fd849fbee9c4086,"
           }
         },
-        "$.big-1": {
+        "big-1": {
           "$type": "typography",
           "$value": {
             "fontFamily": "Everett",
@@ -2171,7 +2171,7 @@
             "styleId": "S:585c5acd44478286bdd396e8150f6068818fa9dc,"
           }
         },
-        "$.big-2": {
+        "big-2": {
           "$type": "typography",
           "$value": {
             "fontFamily": "Everett",
@@ -2185,7 +2185,7 @@
             "styleId": "S:4c9be9a41b2e536fa795e6bcaa18850f79316307,"
           }
         },
-        "$.big-3": {
+        "big-3": {
           "$type": "typography",
           "$value": {
             "fontFamily": "Everett",
@@ -2199,7 +2199,7 @@
             "styleId": "S:92d1b2d0817c04fbd7b470ed3408365604e41938,"
           }
         },
-        "$.big-4": {
+        "big-4": {
           "$type": "typography",
           "$value": {
             "fontFamily": "Everett",
@@ -2274,6 +2274,6 @@
       ".robo-colors",
       "Theme"
     ],
-    "createdAt": "2023-10-18T13:47:40.843Z"
+    "createdAt": "2023-10-18T13:49:16.606Z"
   }
 }

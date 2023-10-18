@@ -1,2252 +1,773 @@
 {
   "nen-token": {
     "spacing": {
-      "2xs": {
+      "xxs": {
         "$type": "dimension",
-        "$value": "8px",
-        "$description": "",
-        "scopes": [
-          "GAP"
-        ],
-        "$extensions": {
-          "variableId": "VariableID:37:1875"
-        }
-      },
-      "xs": {
-        "$type": "dimension",
-        "$value": "16px",
-        "$description": "",
-        "scopes": [
-          "GAP"
-        ],
-        "$extensions": {
-          "variableId": "VariableID:55:1898"
-        }
-      },
-      "sm": {
-        "$type": "dimension",
-        "$value": "24px",
-        "$description": "",
-        "scopes": [
-          "GAP"
-        ],
-        "$extensions": {
-          "variableId": "VariableID:55:1899"
-        }
-      },
-      "md": {
-        "$type": "dimension",
-        "$value": "32px",
-        "$description": "",
-        "scopes": [
-          "GAP"
-        ],
-        "$extensions": {
-          "variableId": "VariableID:55:1900"
-        }
-      },
-      "lg": {
-        "$type": "dimension",
-        "$value": "40px",
-        "$description": "",
-        "scopes": [
-          "GAP"
-        ],
-        "$extensions": {
-          "variableId": "VariableID:55:1901"
-        }
-      },
-      "xl": {
-        "$type": "dimension",
-        "$value": "48px",
-        "$description": "",
-        "scopes": [
-          "GAP"
-        ],
-        "$extensions": {
-          "variableId": "VariableID:55:1902"
-        }
-      },
-      "xxl": {
-        "$type": "dimension",
-        "$value": "56px",
-        "$description": "",
-        "scopes": [
-          "GAP"
-        ],
-        "$extensions": {
-          "variableId": "VariableID:55:1903"
-        }
-      },
-      "2xl": {
-        "$type": "dimension",
-        "$value": "64px",
-        "$description": "",
-        "scopes": [
-          "GAP"
-        ],
-        "$extensions": {
-          "variableId": "VariableID:55:1904"
-        }
-      },
-      "3xl": {
-        "$type": "dimension",
-        "$value": "72px",
-        "$description": "",
-        "scopes": [
-          "GAP"
-        ],
-        "$extensions": {
-          "variableId": "VariableID:55:1905"
-        }
-      },
-      "5xl": {
-        "$type": "dimension",
-        "$value": "96px",
-        "$description": "",
-        "scopes": [
-          "GAP"
-        ],
-        "$extensions": {
-          "variableId": "VariableID:55:1907"
-        }
-      },
-      "super": {
-        "$type": "dimension",
-        "$value": "128px",
-        "$description": "",
-        "scopes": [
-          "GAP"
-        ],
-        "$extensions": {
-          "variableId": "VariableID:55:1908"
-        }
-      },
-      "4xl": {
-        "$type": "dimension",
-        "$value": "80px",
-        "$description": "",
-        "scopes": [
-          "GAP"
-        ],
-        "$extensions": {
-          "variableId": "VariableID:55:1909"
-        }
-      },
-      "none": {
-        "$type": "dimension",
-        "$value": "0px",
-        "$description": "",
-        "scopes": [
-          "GAP"
-        ],
-        "$extensions": {
-          "variableId": "VariableID:86:1851"
-        }
-      },
-      "6xl": {
-        "$type": "dimension",
-        "$value": "112px",
-        "$description": "",
-        "scopes": [
-          "GAP"
-        ],
-        "$extensions": {
-          "variableId": "VariableID:149:2121"
-        }
+        "$value": "12px"
       },
       "base": {
         "$type": "dimension",
-        "$value": "4px",
-        "$description": "",
-        "scopes": [
-          "GAP"
-        ],
-        "$extensions": {
-          "variableId": "VariableID:155:1626"
-        }
+        "$value": "4px"
       },
-      "xxs": {
+      "6xl": {
         "$type": "dimension",
-        "$value": "12px",
-        "$description": "",
-        "scopes": [
-          "GAP"
-        ],
-        "$extensions": {
-          "variableId": "VariableID:172:1612"
-        }
+        "$value": "112px"
+      },
+      "none": {
+        "$type": "dimension",
+        "$value": "0px"
+      },
+      "4xl": {
+        "$type": "dimension",
+        "$value": "80px"
+      },
+      "super": {
+        "$type": "dimension",
+        "$value": "128px"
+      },
+      "5xl": {
+        "$type": "dimension",
+        "$value": "96px"
+      },
+      "3xl": {
+        "$type": "dimension",
+        "$value": "72px"
+      },
+      "2xl": {
+        "$type": "dimension",
+        "$value": "64px"
+      },
+      "xxl": {
+        "$type": "dimension",
+        "$value": "56px"
+      },
+      "xl": {
+        "$type": "dimension",
+        "$value": "48px"
+      },
+      "lg": {
+        "$type": "dimension",
+        "$value": "40px"
+      },
+      "md": {
+        "$type": "dimension",
+        "$value": "32px"
+      },
+      "sm": {
+        "$type": "dimension",
+        "$value": "24px"
+      },
+      "xs": {
+        "$type": "dimension",
+        "$value": "16px"
+      },
+      "2xs": {
+        "$type": "dimension",
+        "$value": "8px"
       }
     },
     "color": {
       "default": {
-        "ui-bianco": {
+        "ui-grigio": {
           "$type": "color",
-          "$value": "{.global.global-color.neutro.bianco}",
-          "$description": "background white",
-          "scopes": [
-            "STROKE_COLOR",
-            "SHAPE_FILL",
-            "FRAME_FILL"
-          ],
-          "$extensions": {
-            "variableId": "VariableID:43:5159"
-          }
-        },
-        "ui-nero": {
-          "$type": "color",
-          "$value": "{.global.global-color.neutro.nero-puro}",
-          "$description": "main black",
-          "scopes": [
-            "STROKE_COLOR",
-            "SHAPE_FILL",
-            "FRAME_FILL"
-          ],
-          "$extensions": {
-            "variableId": "VariableID:43:5161"
-          }
-        },
-        "ui-arancione": {
-          "$type": "color",
-          "$value": "{.global.global-color.arancione.400-arancione}",
-          "$description": "",
-          "scopes": [
-            "STROKE_COLOR",
-            "SHAPE_FILL",
-            "FRAME_FILL"
-          ],
-          "$extensions": {
-            "variableId": "VariableID:43:5162"
-          }
-        },
-        "ui-blu-dual": {
-          "$type": "color",
-          "$value": "{.global.global-color.blu.400-blu-elettrico}",
-          "$description": "main blue dual",
-          "scopes": [
-            "STROKE_COLOR",
-            "SHAPE_FILL",
-            "FRAME_FILL"
-          ],
-          "$extensions": {
-            "variableId": "VariableID:43:5164"
-          }
-        },
-        "ui-ciano-gas": {
-          "$type": "color",
-          "$value": "{.global.global-color.ciano.400-ciano}",
-          "$description": "main cyan gas",
-          "scopes": [
-            "STROKE_COLOR",
-            "SHAPE_FILL",
-            "FRAME_FILL"
-          ],
-          "$extensions": {
-            "variableId": "VariableID:43:5166"
-          }
-        },
-        "ui-giallo-luce": {
-          "$type": "color",
-          "$value": "{.global.global-color.giallo.400-giallo-limone}",
-          "$description": "main yellow luce",
-          "scopes": [
-            "STROKE_COLOR",
-            "SHAPE_FILL",
-            "FRAME_FILL"
-          ],
-          "$extensions": {
-            "variableId": "VariableID:43:5168"
-          }
-        },
-        "ui-lilla": {
-          "$type": "color",
-          "$value": "{.global.global-color.lilla.400-lilla}",
-          "$description": "main lilla",
-          "scopes": [
-            "STROKE_COLOR",
-            "SHAPE_FILL",
-            "FRAME_FILL"
-          ],
-          "$extensions": {
-            "variableId": "VariableID:43:5170"
-          }
-        },
-        "ui-magenta": {
-          "$type": "color",
-          "$value": "{.global.global-color.magenta.400-magenta}",
-          "$description": "main magenta",
-          "scopes": [
-            "STROKE_COLOR",
-            "SHAPE_FILL",
-            "FRAME_FILL"
-          ],
-          "$extensions": {
-            "variableId": "VariableID:43:5172"
-          }
-        },
-        "ui-pisello": {
-          "$type": "color",
-          "$value": "{.global.global-color.pisello.400-pisello}",
-          "$description": "",
-          "scopes": [
-            "STROKE_COLOR",
-            "SHAPE_FILL",
-            "FRAME_FILL"
-          ],
-          "$extensions": {
-            "variableId": "VariableID:43:5174"
-          }
-        },
-        "ui-verde": {
-          "$type": "color",
-          "$value": "{.global.global-color.verde.400-verdone}",
-          "$description": "",
-          "scopes": [
-            "STROKE_COLOR",
-            "SHAPE_FILL",
-            "FRAME_FILL"
-          ],
-          "$extensions": {
-            "variableId": "VariableID:43:5178"
-          }
-        },
-        "ui-viola": {
-          "$type": "color",
-          "$value": "{.global.global-color.viola.400-viola-melanzana}",
-          "$description": "main purple",
-          "scopes": [
-            "STROKE_COLOR",
-            "SHAPE_FILL",
-            "FRAME_FILL"
-          ],
-          "$extensions": {
-            "variableId": "VariableID:43:5180"
-          }
+          "$value": "{.global.global-color.neutro.grigio}"
         },
         "ui-rosso": {
           "$type": "color",
           "$value": "{.global.global-color.rosso.400-rosso}",
-          "$description": "error main red",
-          "scopes": [
-            "STROKE_COLOR",
-            "SHAPE_FILL",
-            "FRAME_FILL"
-          ],
-          "$extensions": {
-            "variableId": "VariableID:75:1852"
-          }
+          "$description": "error main red"
         },
-        "ui-grigio": {
+        "ui-viola": {
           "$type": "color",
-          "$value": "{.global.global-color.neutro.grigio}",
-          "$description": "",
-          "scopes": [
-            "STROKE_COLOR",
-            "SHAPE_FILL",
-            "FRAME_FILL"
-          ],
-          "$extensions": {
-            "variableId": "VariableID:118:1521"
-          }
+          "$value": "{.global.global-color.viola.400-viola-melanzana}",
+          "$description": "main purple"
+        },
+        "ui-verde": {
+          "$type": "color",
+          "$value": "{.global.global-color.verde.400-verdone}"
+        },
+        "ui-pisello": {
+          "$type": "color",
+          "$value": "{.global.global-color.pisello.400-pisello}"
+        },
+        "ui-magenta": {
+          "$type": "color",
+          "$value": "{.global.global-color.magenta.400-magenta}",
+          "$description": "main magenta"
+        },
+        "ui-lilla": {
+          "$type": "color",
+          "$value": "{.global.global-color.lilla.400-lilla}",
+          "$description": "main lilla"
+        },
+        "ui-giallo-luce": {
+          "$type": "color",
+          "$value": "{.global.global-color.giallo.400-giallo-limone}",
+          "$description": "main yellow luce"
+        },
+        "ui-ciano-gas": {
+          "$type": "color",
+          "$value": "{.global.global-color.ciano.400-ciano}",
+          "$description": "main cyan gas"
+        },
+        "ui-blu-dual": {
+          "$type": "color",
+          "$value": "{.global.global-color.blu.400-blu-elettrico}",
+          "$description": "main blue dual"
+        },
+        "ui-arancione": {
+          "$type": "color",
+          "$value": "{.global.global-color.arancione.400-arancione}"
+        },
+        "ui-nero": {
+          "$type": "color",
+          "$value": "{.global.global-color.neutro.nero-puro}",
+          "$description": "main black"
+        },
+        "ui-bianco": {
+          "$type": "color",
+          "$value": "{.global.global-color.neutro.bianco}",
+          "$description": "background white"
         }
       },
       "tints": {
         "light": {
-          "ui-blu-light": {
+          "ui-rosso-light": {
             "$type": "color",
-            "$value": "{.global.global-color.blu.50-polvere-di-fata}",
-            "$description": "",
-            "scopes": [
-              "STROKE_COLOR",
-              "SHAPE_FILL",
-              "FRAME_FILL"
-            ],
-            "$extensions": {
-              "variableId": "VariableID:43:5163"
-            }
-          },
-          "ui-ciano-light": {
-            "$type": "color",
-            "$value": "{.global.global-color.ciano.50 - Alice}",
-            "$description": "",
-            "scopes": [
-              "STROKE_COLOR",
-              "SHAPE_FILL",
-              "FRAME_FILL"
-            ],
-            "$extensions": {
-              "variableId": "VariableID:43:5165"
-            }
-          },
-          "ui-giallo-light": {
-            "$type": "color",
-            "$value": "{.global.global-color.giallo.50-zinco}",
-            "$description": "",
-            "scopes": [
-              "STROKE_COLOR",
-              "SHAPE_FILL",
-              "FRAME_FILL"
-            ],
-            "$extensions": {
-              "variableId": "VariableID:43:5167"
-            }
-          },
-          "ui-lilla-light": {
-            "$type": "color",
-            "$value": "{.global.global-color.lilla.50-fumo}",
-            "$description": "",
-            "scopes": [
-              "STROKE_COLOR",
-              "SHAPE_FILL",
-              "FRAME_FILL"
-            ],
-            "$extensions": {
-              "variableId": "VariableID:43:5169"
-            }
-          },
-          "ui-magenta-light": {
-            "$type": "color",
-            "$value": "{.global.global-color.magenta.50-unicorno}",
-            "$description": "",
-            "scopes": [
-              "STROKE_COLOR",
-              "SHAPE_FILL",
-              "FRAME_FILL"
-            ],
-            "$extensions": {
-              "variableId": "VariableID:43:5171"
-            }
-          },
-          "ui-pisello-light": {
-            "$type": "color",
-            "$value": "{.global.global-color.pisello.50-citronella}",
-            "$description": "",
-            "scopes": [
-              "STROKE_COLOR",
-              "SHAPE_FILL",
-              "FRAME_FILL"
-            ],
-            "$extensions": {
-              "variableId": "VariableID:43:5173"
-            }
-          },
-          "ui-verde-light": {
-            "$type": "color",
-            "$value": "{.global.global-color.verde.50-porcellana}",
-            "$description": "",
-            "scopes": [
-              "STROKE_COLOR",
-              "SHAPE_FILL",
-              "FRAME_FILL"
-            ],
-            "$extensions": {
-              "variableId": "VariableID:43:5175"
-            }
+            "$value": "{.global.global-color.rosso.50-blush}"
           },
           "ui-viola-light": {
             "$type": "color",
-            "$value": "{.global.global-color.viola.50-nebbia}",
-            "$description": "",
-            "scopes": [
-              "STROKE_COLOR",
-              "SHAPE_FILL",
-              "FRAME_FILL"
-            ],
-            "$extensions": {
-              "variableId": "VariableID:43:5179"
-            }
+            "$value": "{.global.global-color.viola.50-nebbia}"
           },
-          "ui-rosso-light": {
+          "ui-verde-light": {
             "$type": "color",
-            "$value": "{.global.global-color.rosso.50-blush}",
-            "$description": "",
-            "scopes": [
-              "STROKE_COLOR",
-              "SHAPE_FILL",
-              "FRAME_FILL"
-            ],
-            "$extensions": {
-              "variableId": "VariableID:147:2074"
-            }
+            "$value": "{.global.global-color.verde.50-porcellana}"
+          },
+          "ui-pisello-light": {
+            "$type": "color",
+            "$value": "{.global.global-color.pisello.50-citronella}"
+          },
+          "ui-magenta-light": {
+            "$type": "color",
+            "$value": "{.global.global-color.magenta.50-unicorno}"
+          },
+          "ui-lilla-light": {
+            "$type": "color",
+            "$value": "{.global.global-color.lilla.50-fumo}"
+          },
+          "ui-giallo-light": {
+            "$type": "color",
+            "$value": "{.global.global-color.giallo.50-zinco}"
+          },
+          "ui-ciano-light": {
+            "$type": "color",
+            "$value": "{.global.global-color.ciano.50 - Alice}"
+          },
+          "ui-blu-light": {
+            "$type": "color",
+            "$value": "{.global.global-color.blu.50-polvere-di-fata}"
           }
         },
         "mid": {
-          "ui-blu-mid": {
+          "ui-magenta-mid": {
             "$type": "color",
-            "$value": "{.global.global-color.blu.75-carta-da-zucchero}",
-            "$description": "{hover or focus}",
-            "scopes": [
-              "STROKE_COLOR",
-              "SHAPE_FILL",
-              "FRAME_FILL"
-            ],
-            "$extensions": {
-              "variableId": "VariableID:146:2000"
-            }
-          },
-          "ui-giallo-mid": {
-            "$type": "color",
-            "$value": "{.global.global-color.giallo.75-crema}",
-            "$description": "{hover or focus}",
-            "scopes": [
-              "STROKE_COLOR",
-              "SHAPE_FILL",
-              "FRAME_FILL"
-            ],
-            "$extensions": {
-              "variableId": "VariableID:146:2002"
-            }
-          },
-          "ui-ciano-mid": {
-            "$type": "color",
-            "$value": "{.global.global-color.ciano.75-divano-della-nonna}",
-            "$description": "{hover or focus}",
-            "scopes": [
-              "STROKE_COLOR",
-              "SHAPE_FILL",
-              "FRAME_FILL"
-            ],
-            "$extensions": {
-              "variableId": "VariableID:147:2071"
-            }
-          },
-          "ui-rosso-mid": {
-            "$type": "color",
-            "$value": "{.global.global-color.rosso.75-manhattan}",
-            "$description": "{hover or focus}",
-            "scopes": [
-              "STROKE_COLOR",
-              "SHAPE_FILL",
-              "FRAME_FILL"
-            ],
-            "$extensions": {
-              "variableId": "VariableID:147:2075"
-            }
-          },
-          "ui-viola-mid": {
-            "$type": "color",
-            "$value": "{.global.global-color.viola.75-malva}",
-            "$description": "{hover or focus}",
-            "scopes": [
-              "STROKE_COLOR",
-              "SHAPE_FILL",
-              "FRAME_FILL"
-            ],
-            "$extensions": {
-              "variableId": "VariableID:147:2077"
-            }
+            "$value": "{.global.global-color.magenta.75-torta}",
+            "$description": "{hover or focus}"
           },
           "ui-lilla-mid": {
             "$type": "color",
             "$value": "{.global.global-color.lilla.75-pervinca}",
-            "$description": "{hover or focus}",
-            "scopes": [
-              "STROKE_COLOR",
-              "SHAPE_FILL",
-              "FRAME_FILL"
-            ],
-            "$extensions": {
-              "variableId": "VariableID:147:2079"
-            }
+            "$description": "{hover or focus}"
           },
-          "ui-magenta-mid": {
+          "ui-viola-mid": {
             "$type": "color",
-            "$value": "{.global.global-color.magenta.75-torta}",
-            "$description": "{hover or focus}",
-            "scopes": [
-              "STROKE_COLOR",
-              "SHAPE_FILL",
-              "FRAME_FILL"
-            ],
-            "$extensions": {
-              "variableId": "VariableID:147:2081"
-            }
+            "$value": "{.global.global-color.viola.75-malva}",
+            "$description": "{hover or focus}"
+          },
+          "ui-rosso-mid": {
+            "$type": "color",
+            "$value": "{.global.global-color.rosso.75-manhattan}",
+            "$description": "{hover or focus}"
+          },
+          "ui-ciano-mid": {
+            "$type": "color",
+            "$value": "{.global.global-color.ciano.75-divano-della-nonna}",
+            "$description": "{hover or focus}"
+          },
+          "ui-giallo-mid": {
+            "$type": "color",
+            "$value": "{.global.global-color.giallo.75-crema}",
+            "$description": "{hover or focus}"
+          },
+          "ui-blu-mid": {
+            "$type": "color",
+            "$value": "{.global.global-color.blu.75-carta-da-zucchero}",
+            "$description": "{hover or focus}"
           }
         },
         "dark": {
-          "ui-blu-dark": {
+          "ui-verde-dark": {
             "$type": "color",
-            "$value": "{.global.global-color.blu.500-jeans}",
-            "$description": "{pressed}",
-            "scopes": [
-              "STROKE_COLOR",
-              "SHAPE_FILL",
-              "FRAME_FILL"
-            ],
-            "$extensions": {
-              "variableId": "VariableID:146:2001"
-            }
-          },
-          "ui-giallo-dark": {
-            "$type": "color",
-            "$value": "{.global.global-color.giallo.500-oro}",
-            "$description": "{pressed}",
-            "scopes": [
-              "STROKE_COLOR",
-              "SHAPE_FILL",
-              "FRAME_FILL"
-            ],
-            "$extensions": {
-              "variableId": "VariableID:146:2003"
-            }
-          },
-          "ui-ciano-dark": {
-            "$type": "color",
-            "$value": "{.global.global-color.ciano.500-foglia-di-te}",
-            "$description": "{pressed}",
-            "scopes": [
-              "STROKE_COLOR",
-              "SHAPE_FILL",
-              "FRAME_FILL"
-            ],
-            "$extensions": {
-              "variableId": "VariableID:147:2072"
-            }
-          },
-          "ui-rosso-dark": {
-            "$type": "color",
-            "$value": "{.global.global-color.rosso.500-porpora}",
-            "$description": "{pressed}",
-            "scopes": [
-              "STROKE_COLOR",
-              "SHAPE_FILL",
-              "FRAME_FILL"
-            ],
-            "$extensions": {
-              "variableId": "VariableID:147:2076"
-            }
-          },
-          "ui-viola-dark": {
-            "$type": "color",
-            "$value": "{.global.global-color.viola.500-persia}",
-            "$description": "{pressed}",
-            "scopes": [
-              "STROKE_COLOR",
-              "SHAPE_FILL",
-              "FRAME_FILL"
-            ],
-            "$extensions": {
-              "variableId": "VariableID:147:2078"
-            }
-          },
-          "ui-lilla-dark": {
-            "$type": "color",
-            "$value": "{.global.global-color.lilla.500-prince}",
-            "$description": "{pressed}",
-            "scopes": [
-              "STROKE_COLOR",
-              "SHAPE_FILL",
-              "FRAME_FILL"
-            ],
-            "$extensions": {
-              "variableId": "VariableID:147:2080"
-            }
+            "$value": "{.global.global-color.verde.500-bottiglia}"
           },
           "ui-magenta-dark": {
             "$type": "color",
             "$value": "{.global.global-color.magenta.500-livorno}",
-            "$description": "{pressed} magenta",
-            "scopes": [
-              "STROKE_COLOR",
-              "SHAPE_FILL",
-              "FRAME_FILL"
-            ],
-            "$extensions": {
-              "variableId": "VariableID:147:2084"
-            }
+            "$description": "{pressed} magenta"
           },
-          "ui-verde-dark": {
+          "ui-lilla-dark": {
             "$type": "color",
-            "$value": "{.global.global-color.verde.500-bottiglia}",
-            "$description": "",
-            "scopes": [
-              "STROKE_COLOR",
-              "SHAPE_FILL",
-              "FRAME_FILL"
-            ],
-            "$extensions": {
-              "variableId": "VariableID:236:35"
-            }
+            "$value": "{.global.global-color.lilla.500-prince}",
+            "$description": "{pressed}"
+          },
+          "ui-viola-dark": {
+            "$type": "color",
+            "$value": "{.global.global-color.viola.500-persia}",
+            "$description": "{pressed}"
+          },
+          "ui-rosso-dark": {
+            "$type": "color",
+            "$value": "{.global.global-color.rosso.500-porpora}",
+            "$description": "{pressed}"
+          },
+          "ui-ciano-dark": {
+            "$type": "color",
+            "$value": "{.global.global-color.ciano.500-foglia-di-te}",
+            "$description": "{pressed}"
+          },
+          "ui-giallo-dark": {
+            "$type": "color",
+            "$value": "{.global.global-color.giallo.500-oro}",
+            "$description": "{pressed}"
+          },
+          "ui-blu-dark": {
+            "$type": "color",
+            "$value": "{.global.global-color.blu.500-jeans}",
+            "$description": "{pressed}"
           }
         }
       },
       "text": {
-        "bianco": {
+        "link": {
           "$type": "color",
-          "$value": "{.global.global-color.neutro.bianco}",
-          "$description": "",
-          "scopes": [
-            "TEXT_FILL"
-          ],
-          "$extensions": {
-            "variableId": "VariableID:43:5181"
-          }
-        },
-        "nero": {
-          "$type": "color",
-          "$value": "{.global.global-color.neutro.nero-puro}",
-          "$description": "",
-          "scopes": [
-            "TEXT_FILL"
-          ],
-          "$extensions": {
-            "variableId": "VariableID:43:5182"
-          }
-        },
-        "disabled": {
-          "$type": "color",
-          "$value": "{.global.global-color.neutro.grigio}",
-          "$description": "",
-          "scopes": [
-            "TEXT_FILL"
-          ],
-          "$extensions": {
-            "variableId": "VariableID:43:5183"
-          }
-        },
-        "error": {
-          "$type": "color",
-          "$value": "{.global.global-color.rosso.400-rosso}",
-          "$description": "",
-          "scopes": [
-            "TEXT_FILL"
-          ],
-          "$extensions": {
-            "variableId": "VariableID:75:1851"
-          }
+          "$value": "{.global.global-color.blu.400-blu-elettrico}"
         },
         "success": {
           "$type": "color",
-          "$value": "{.global.global-color.verde.400-verdone}",
-          "$description": "",
-          "scopes": [
-            "TEXT_FILL"
-          ],
-          "$extensions": {
-            "variableId": "VariableID:75:1853"
-          }
+          "$value": "{.global.global-color.verde.400-verdone}"
         },
-        "link": {
+        "error": {
           "$type": "color",
-          "$value": "{.global.global-color.blu.400-blu-elettrico}",
-          "$description": "",
-          "scopes": [
-            "TEXT_FILL"
-          ],
-          "$extensions": {
-            "variableId": "VariableID:78:1851"
-          }
+          "$value": "{.global.global-color.rosso.400-rosso}"
+        },
+        "disabled": {
+          "$type": "color",
+          "$value": "{.global.global-color.neutro.grigio}"
+        },
+        "nero": {
+          "$type": "color",
+          "$value": "{.global.global-color.neutro.nero-puro}"
+        },
+        "bianco": {
+          "$type": "color",
+          "$value": "{.global.global-color.neutro.bianco}"
         }
       },
       "alpha": {
-        "obscure-4": {
+        "obscure-10": {
           "$type": "color",
-          "$value": "#0000000a",
-          "$description": "",
-          "scopes": [
-            "STROKE_COLOR",
-            "SHAPE_FILL",
-            "FRAME_FILL"
-          ],
-          "$extensions": {
-            "variableId": "VariableID:170:1608"
-          }
-        },
-        "obscure-6": {
-          "$type": "color",
-          "$value": "#0000000f",
-          "$description": "",
-          "scopes": [
-            "STROKE_COLOR",
-            "SHAPE_FILL",
-            "FRAME_FILL"
-          ],
-          "$extensions": {
-            "variableId": "VariableID:170:1609"
-          }
-        },
-        "obscure-2": {
-          "$type": "color",
-          "$value": "#00000005",
-          "$description": "",
-          "scopes": [
-            "STROKE_COLOR",
-            "SHAPE_FILL",
-            "FRAME_FILL"
-          ],
-          "$extensions": {
-            "variableId": "VariableID:171:1610"
-          }
+          "$value": "#0000001A"
         },
         "obscure-8": {
           "$type": "color",
-          "$value": "#00000014",
-          "$description": "",
-          "scopes": [
-            "STROKE_COLOR",
-            "SHAPE_FILL",
-            "FRAME_FILL"
-          ],
-          "$extensions": {
-            "variableId": "VariableID:235:32"
-          }
+          "$value": "#00000014"
         },
-        "obscure-10": {
+        "obscure-2": {
           "$type": "color",
-          "$value": "#0000001a",
-          "$description": "",
-          "scopes": [
-            "STROKE_COLOR",
-            "SHAPE_FILL",
-            "FRAME_FILL"
-          ],
-          "$extensions": {
-            "variableId": "VariableID:235:33"
-          }
+          "$value": "#00000005"
+        },
+        "obscure-6": {
+          "$type": "color",
+          "$value": "#0000000F"
+        },
+        "obscure-4": {
+          "$type": "color",
+          "$value": "#0000000A"
         }
       }
     },
     "radius": {
-      "none": {
+      "super": {
         "$type": "dimension",
-        "$value": "0px",
-        "$description": "",
-        "scopes": [
-          "CORNER_RADIUS"
-        ],
-        "$extensions": {
-          "variableId": "VariableID:55:1910"
-        }
-      },
-      "xs": {
-        "$type": "dimension",
-        "$value": "2px",
-        "$description": "",
-        "scopes": [
-          "CORNER_RADIUS"
-        ],
-        "$extensions": {
-          "variableId": "VariableID:55:1911"
-        }
-      },
-      "sm": {
-        "$type": "dimension",
-        "$value": "4px",
-        "$description": "",
-        "scopes": [
-          "CORNER_RADIUS"
-        ],
-        "$extensions": {
-          "variableId": "VariableID:55:1912"
-        }
-      },
-      "md": {
-        "$type": "dimension",
-        "$value": "6px",
-        "$description": "",
-        "scopes": [
-          "CORNER_RADIUS"
-        ],
-        "$extensions": {
-          "variableId": "VariableID:55:1913"
-        }
-      },
-      "lg": {
-        "$type": "dimension",
-        "$value": "8px",
-        "$description": "",
-        "scopes": [
-          "CORNER_RADIUS"
-        ],
-        "$extensions": {
-          "variableId": "VariableID:86:1853"
-        }
-      },
-      "xl": {
-        "$type": "dimension",
-        "$value": "12px",
-        "$description": "",
-        "scopes": [
-          "CORNER_RADIUS"
-        ],
-        "$extensions": {
-          "variableId": "VariableID:108:1515"
-        }
-      },
-      "2xl": {
-        "$type": "dimension",
-        "$value": "16px",
-        "$description": "",
-        "scopes": [
-          "CORNER_RADIUS"
-        ],
-        "$extensions": {
-          "variableId": "VariableID:108:1516"
-        }
+        "$value": "999px"
       },
       "3xl": {
         "$type": "dimension",
-        "$value": "24px",
-        "$description": "",
-        "scopes": [
-          "CORNER_RADIUS"
-        ],
-        "$extensions": {
-          "variableId": "VariableID:108:1517"
-        }
+        "$value": "24px"
       },
-      "super": {
+      "2xl": {
         "$type": "dimension",
-        "$value": "999px",
-        "$description": "",
-        "scopes": [
-          "CORNER_RADIUS"
-        ],
-        "$extensions": {
-          "variableId": "VariableID:108:1518"
-        }
+        "$value": "16px"
+      },
+      "xl": {
+        "$type": "dimension",
+        "$value": "12px"
+      },
+      "lg": {
+        "$type": "dimension",
+        "$value": "8px"
+      },
+      "md": {
+        "$type": "dimension",
+        "$value": "6px"
+      },
+      "sm": {
+        "$type": "dimension",
+        "$value": "4px"
+      },
+      "xs": {
+        "$type": "dimension",
+        "$value": "2px"
+      },
+      "none": {
+        "$type": "dimension",
+        "$value": "0px"
       }
     },
     "layout": {
       "device": {
         "layout": {
-          "xl": {
+          "sm": {
             "$type": "dimension",
-            "$value": "1440px",
-            "$description": "use for desktop large",
-            "scopes": [
-              "WIDTH_HEIGHT"
-            ],
-            "$extensions": {
-              "variableId": "VariableID:232:113"
-            }
-          },
-          "lg": {
-            "$type": "dimension",
-            "$value": "1024px",
-            "$description": "use for desktop small",
-            "scopes": [
-              "WIDTH_HEIGHT"
-            ],
-            "$extensions": {
-              "variableId": "VariableID:232:114"
-            }
+            "$value": "375px",
+            "$description": "use for mobile"
           },
           "md": {
             "$type": "dimension",
             "$value": "768px",
-            "$description": "use for tablet",
-            "scopes": [
-              "WIDTH_HEIGHT"
-            ],
-            "$extensions": {
-              "variableId": "VariableID:232:115"
-            }
-          },
-          "sm": {
-            "$type": "dimension",
-            "$value": "375px",
-            "$description": "use for mobile",
-            "scopes": [
-              "WIDTH_HEIGHT"
-            ],
-            "$extensions": {
-              "variableId": "VariableID:232:116"
-            }
-          }
-        },
-        "margin": {
-          "xl": {
-            "$type": "dimension",
-            "$value": "{nen-token.spacing.6xl}",
-            "$description": "margin for desktop xl",
-            "scopes": [
-              "GAP"
-            ],
-            "$extensions": {
-              "variableId": "VariableID:232:117"
-            }
+            "$description": "use for tablet"
           },
           "lg": {
             "$type": "dimension",
-            "$value": "{nen-token.spacing.md}",
-            "$description": "margin for desktop small",
-            "scopes": [
-              "GAP"
-            ],
-            "$extensions": {
-              "variableId": "VariableID:232:118"
-            }
+            "$value": "1024px",
+            "$description": "use for desktop small"
+          },
+          "xl": {
+            "$type": "dimension",
+            "$value": "1440px",
+            "$description": "use for desktop large"
+          }
+        },
+        "margin": {
+          "sm": {
+            "$type": "dimension",
+            "$value": "{nen-token.spacing.xs}",
+            "$description": "margin for mobile"
           },
           "md": {
             "$type": "dimension",
             "$value": "{nen-token.spacing.md}",
-            "$description": "margin for tablet",
-            "scopes": [
-              "GAP"
-            ],
-            "$extensions": {
-              "variableId": "VariableID:232:119"
-            }
+            "$description": "margin for tablet"
           },
-          "sm": {
+          "lg": {
             "$type": "dimension",
-            "$value": "{nen-token.spacing.xs}",
-            "$description": "margin for mobile",
-            "scopes": [
-              "GAP"
-            ],
-            "$extensions": {
-              "variableId": "VariableID:232:120"
-            }
+            "$value": "{nen-token.spacing.md}",
+            "$description": "margin for desktop small"
+          },
+          "xl": {
+            "$type": "dimension",
+            "$value": "{nen-token.spacing.6xl}",
+            "$description": "margin for desktop xl"
           }
-        }
-      }
-    }
-  },
-  ".global": {
-    "global-color": {
-      "neutro": {
-        "nero-puro": {
-          "$type": "color",
-          "$value": "#000000",
-          "$description": "",
-          "scopes": [],
-          "$extensions": {
-            "variableId": "VariableID:43:2240"
-          }
-        },
-        "bianco": {
-          "$type": "color",
-          "$value": "#ffffff",
-          "$description": "",
-          "scopes": [],
-          "$extensions": {
-            "variableId": "VariableID:43:2241"
-          }
-        },
-        "grigio": {
-          "$type": "color",
-          "$value": "#8e8e8e",
-          "$description": "",
-          "scopes": [],
-          "$extensions": {
-            "variableId": "VariableID:43:2242"
-          }
-        }
-      },
-      "blu": {
-        "500-jeans": {
-          "$type": "color",
-          "$value": "#0029a7",
-          "$description": "",
-          "scopes": [],
-          "$extensions": {
-            "variableId": "VariableID:43:2243"
-          }
-        },
-        "400-blu-elettrico": {
-          "$type": "color",
-          "$value": "#003cf0",
-          "$description": "",
-          "scopes": [],
-          "$extensions": {
-            "variableId": "VariableID:43:2244"
-          }
-        },
-        "300-francia": {
-          "$type": "color",
-          "$value": "#1a4ff1",
-          "$description": "",
-          "scopes": [],
-          "$extensions": {
-            "variableId": "VariableID:43:2245"
-          }
-        },
-        "200-brezza": {
-          "$type": "color",
-          "$value": "#4d76f4",
-          "$description": "",
-          "scopes": [],
-          "$extensions": {
-            "variableId": "VariableID:43:2246"
-          }
-        },
-        "100-fiordaliso": {
-          "$type": "color",
-          "$value": "#809df7",
-          "$description": "",
-          "scopes": [],
-          "$extensions": {
-            "variableId": "VariableID:43:2247"
-          }
-        },
-        "75-carta-da-zucchero": {
-          "$type": "color",
-          "$value": "#b3c4fa",
-          "$description": "",
-          "scopes": [],
-          "$extensions": {
-            "variableId": "VariableID:43:2248"
-          }
-        },
-        "50-polvere-di-fata": {
-          "$type": "color",
-          "$value": "#e6ebfd",
-          "$description": "",
-          "scopes": [],
-          "$extensions": {
-            "variableId": "VariableID:43:2249"
-          }
-        }
-      },
-      "giallo": {
-        "500-oro": {
-          "$type": "color",
-          "$value": "#b28800",
-          "$description": "",
-          "scopes": [],
-          "$extensions": {
-            "variableId": "VariableID:43:2250"
-          }
-        },
-        "400-giallo-limone": {
-          "$type": "color",
-          "$value": "#ffc900",
-          "$description": "",
-          "scopes": [],
-          "$extensions": {
-            "variableId": "VariableID:43:2251"
-          }
-        },
-        "300-zafferano": {
-          "$type": "color",
-          "$value": "#ffce19",
-          "$description": "",
-          "scopes": [],
-          "$extensions": {
-            "variableId": "VariableID:43:2252"
-          }
-        },
-        "200-scuolabus": {
-          "$type": "color",
-          "$value": "#ffd54d",
-          "$description": "",
-          "scopes": [],
-          "$extensions": {
-            "variableId": "VariableID:43:2253"
-          }
-        },
-        "100-mais": {
-          "$type": "color",
-          "$value": "#ffe180",
-          "$description": "",
-          "scopes": [],
-          "$extensions": {
-            "variableId": "VariableID:43:2254"
-          }
-        },
-        "75-crema": {
-          "$type": "color",
-          "$value": "#ffedb3",
-          "$description": "",
-          "scopes": [],
-          "$extensions": {
-            "variableId": "VariableID:43:2255"
-          }
-        },
-        "50-zinco": {
-          "$type": "color",
-          "$value": "#fff9e6",
-          "$description": "",
-          "scopes": [],
-          "$extensions": {
-            "variableId": "VariableID:43:2256"
-          }
-        }
-      },
-      "ciano": {
-        "500-foglia-di-te": {
-          "$type": "color",
-          "$value": "#4298a1",
-          "$description": "",
-          "scopes": [],
-          "$extensions": {
-            "variableId": "VariableID:43:2257"
-          }
-        },
-        "400-ciano": {
-          "$type": "color",
-          "$value": "#66e0ec",
-          "$description": "",
-          "scopes": [],
-          "$extensions": {
-            "variableId": "VariableID:43:2258"
-          }
-        },
-        "300-uovo-di-pettirosso": {
-          "$type": "color",
-          "$value": "#76e3ee",
-          "$description": "",
-          "scopes": [],
-          "$extensions": {
-            "variableId": "VariableID:43:2259"
-          }
-        },
-        "200-tiffany": {
-          "$type": "color",
-          "$value": "#8fe5ee",
-          "$description": "",
-          "scopes": [],
-          "$extensions": {
-            "variableId": "VariableID:43:2260"
-          }
-        },
-        "100-acqua-marina": {
-          "$type": "color",
-          "$value": "#afedf3",
-          "$description": "",
-          "scopes": [],
-          "$extensions": {
-            "variableId": "VariableID:43:2261"
-          }
-        },
-        "75-divano-della-nonna": {
-          "$type": "color",
-          "$value": "#cff4f7",
-          "$description": "",
-          "scopes": [],
-          "$extensions": {
-            "variableId": "VariableID:43:2262"
-          }
-        },
-        "50 - Alice": {
-          "$type": "color",
-          "$value": "#effbfc",
-          "$description": "",
-          "scopes": [],
-          "$extensions": {
-            "variableId": "VariableID:43:2263"
-          }
-        }
-      },
-      "viola": {
-        "500-persia": {
-          "$type": "color",
-          "$value": "#47006a",
-          "$description": "",
-          "scopes": [],
-          "$extensions": {
-            "variableId": "VariableID:43:2264"
-          }
-        },
-        "400-viola-melanzana": {
-          "$type": "color",
-          "$value": "#7203a4",
-          "$description": "",
-          "scopes": [],
-          "$extensions": {
-            "variableId": "VariableID:43:2265"
-          }
-        },
-        "300-mirtillo": {
-          "$type": "color",
-          "$value": "#751aa2",
-          "$description": "",
-          "scopes": [],
-          "$extensions": {
-            "variableId": "VariableID:43:2266"
-          }
-        },
-        "200-lavanda": {
-          "$type": "color",
-          "$value": "#944db7",
-          "$description": "",
-          "scopes": [],
-          "$extensions": {
-            "variableId": "VariableID:43:2267"
-          }
-        },
-        "100-vinaccia": {
-          "$type": "color",
-          "$value": "#b280cb",
-          "$description": "",
-          "scopes": [],
-          "$extensions": {
-            "variableId": "VariableID:43:2268"
-          }
-        },
-        "75-malva": {
-          "$type": "color",
-          "$value": "#d1b3e0",
-          "$description": "",
-          "scopes": [],
-          "$extensions": {
-            "variableId": "VariableID:43:2269"
-          }
-        },
-        "50-nebbia": {
-          "$type": "color",
-          "$value": "#f0e6f4",
-          "$description": "",
-          "scopes": [],
-          "$extensions": {
-            "variableId": "VariableID:43:2270"
-          }
-        }
-      },
-      "lilla": {
-        "500-prince": {
-          "$type": "color",
-          "$value": "#4b3da1",
-          "$description": "",
-          "scopes": [],
-          "$extensions": {
-            "variableId": "VariableID:43:2271"
-          }
-        },
-        "400-lilla": {
-          "$type": "color",
-          "$value": "#6c58e8",
-          "$description": "",
-          "scopes": [],
-          "$extensions": {
-            "variableId": "VariableID:43:2272"
-          }
-        },
-        "300-willy-wonka": {
-          "$type": "color",
-          "$value": "#7a69ea",
-          "$description": "",
-          "scopes": [],
-          "$extensions": {
-            "variableId": "VariableID:43:2273"
-          }
-        },
-        "200-glicine": {
-          "$type": "color",
-          "$value": "#988aee",
-          "$description": "",
-          "scopes": [],
-          "$extensions": {
-            "variableId": "VariableID:43:2274"
-          }
-        },
-        "100-fantasma": {
-          "$type": "color",
-          "$value": "#b5abf3",
-          "$description": "",
-          "scopes": [],
-          "$extensions": {
-            "variableId": "VariableID:43:2275"
-          }
-        },
-        "75-pervinca": {
-          "$type": "color",
-          "$value": "#d3cdf8",
-          "$description": "",
-          "scopes": [],
-          "$extensions": {
-            "variableId": "VariableID:43:2276"
-          }
-        },
-        "50-fumo": {
-          "$type": "color",
-          "$value": "#f0eefc",
-          "$description": "",
-          "scopes": [],
-          "$extensions": {
-            "variableId": "VariableID:43:2277"
-          }
-        }
-      },
-      "magenta": {
-        "500-livorno": {
-          "$type": "color",
-          "$value": "#9e2045",
-          "$description": "",
-          "scopes": [],
-          "$extensions": {
-            "variableId": "VariableID:43:2278"
-          }
-        },
-        "400-magenta": {
-          "$type": "color",
-          "$value": "#e5195d",
-          "$description": "",
-          "scopes": [],
-          "$extensions": {
-            "variableId": "VariableID:43:2279"
-          }
-        },
-        "300-corallo": {
-          "$type": "color",
-          "$value": "#e54472",
-          "$description": "",
-          "scopes": [],
-          "$extensions": {
-            "variableId": "VariableID:43:2280"
-          }
-        },
-        "200-ibisco": {
-          "$type": "color",
-          "$value": "#eb6d92",
-          "$description": "",
-          "scopes": [],
-          "$extensions": {
-            "variableId": "VariableID:43:2281"
-          }
-        },
-        "100-confetto": {
-          "$type": "color",
-          "$value": "#f197b1",
-          "$description": "",
-          "scopes": [],
-          "$extensions": {
-            "variableId": "VariableID:43:2282"
-          }
-        },
-        "75-torta": {
-          "$type": "color",
-          "$value": "#f6c1d0",
-          "$description": "",
-          "scopes": [],
-          "$extensions": {
-            "variableId": "VariableID:43:2283"
-          }
-        },
-        "50-unicorno": {
-          "$type": "color",
-          "$value": "#fceaef",
-          "$description": "",
-          "scopes": [],
-          "$extensions": {
-            "variableId": "VariableID:43:2284"
-          }
-        }
-      },
-      "verde": {
-        "500-bottiglia": {
-          "$type": "color",
-          "$value": "#247f63",
-          "$description": "",
-          "scopes": [],
-          "$extensions": {
-            "variableId": "VariableID:43:2285"
-          }
-        },
-        "400-verdone": {
-          "$type": "color",
-          "$value": "#36c09a",
-          "$description": "",
-          "scopes": [],
-          "$extensions": {
-            "variableId": "VariableID:43:2286"
-          }
-        },
-        "300-foresta": {
-          "$type": "color",
-          "$value": "#48be9a",
-          "$description": "",
-          "scopes": [],
-          "$extensions": {
-            "variableId": "VariableID:43:2287"
-          }
-        },
-        "200-trifoglio": {
-          "$type": "color",
-          "$value": "#71ccb0",
-          "$description": "",
-          "scopes": [],
-          "$extensions": {
-            "variableId": "VariableID:43:2288"
-          }
-        },
-        "100-muschio": {
-          "$type": "color",
-          "$value": "#99dbc7",
-          "$description": "",
-          "scopes": [],
-          "$extensions": {
-            "variableId": "VariableID:43:2289"
-          }
-        },
-        "75-the-verde": {
-          "$type": "color",
-          "$value": "#c2e9dd",
-          "$description": "",
-          "scopes": [],
-          "$extensions": {
-            "variableId": "VariableID:43:2290"
-          }
-        },
-        "50-porcellana": {
-          "$type": "color",
-          "$value": "#ebf7f4",
-          "$description": "",
-          "scopes": [],
-          "$extensions": {
-            "variableId": "VariableID:43:2291"
-          }
-        }
-      },
-      "arancione": {
-        "500-sabbia": {
-          "$type": "color",
-          "$value": "#b2563b",
-          "$description": "",
-          "scopes": [],
-          "$extensions": {
-            "variableId": "VariableID:43:2292"
-          }
-        },
-        "400-arancione": {
-          "$type": "color",
-          "$value": "#ff8559",
-          "$description": "",
-          "scopes": [],
-          "$extensions": {
-            "variableId": "VariableID:43:2293"
-          }
-        },
-        "300-pesca": {
-          "$type": "color",
-          "$value": "#ff8966",
-          "$description": "",
-          "scopes": [],
-          "$extensions": {
-            "variableId": "VariableID:43:2294"
-          }
-        },
-        "200-zucca": {
-          "$type": "color",
-          "$value": "#ffa388",
-          "$description": "",
-          "scopes": [],
-          "$extensions": {
-            "variableId": "VariableID:43:2295"
-          }
-        },
-        "100-sashimi": {
-          "$type": "color",
-          "$value": "#ffbdaa",
-          "$description": "",
-          "scopes": [],
-          "$extensions": {
-            "variableId": "VariableID:43:2296"
-          }
-        },
-        "75-albicocca": {
-          "$type": "color",
-          "$value": "#ffd7cc",
-          "$description": "",
-          "scopes": [],
-          "$extensions": {
-            "variableId": "VariableID:43:2297"
-          }
-        },
-        "50-nespola": {
-          "$type": "color",
-          "$value": "#fff2ee",
-          "$description": "",
-          "scopes": [],
-          "$extensions": {
-            "variableId": "VariableID:43:2298"
-          }
-        }
-      },
-      "pisello": {
-        "500-militare": {
-          "$type": "color",
-          "$value": "#5d9600",
-          "$description": "",
-          "scopes": [],
-          "$extensions": {
-            "variableId": "VariableID:43:2299"
-          }
-        },
-        "400-pisello": {
-          "$type": "color",
-          "$value": "#90dd00",
-          "$description": "",
-          "scopes": [],
-          "$extensions": {
-            "variableId": "VariableID:43:2300"
-          }
-        },
-        "300-prato": {
-          "$type": "color",
-          "$value": "#92db1a",
-          "$description": "",
-          "scopes": [],
-          "$extensions": {
-            "variableId": "VariableID:43:2301"
-          }
-        },
-        "200-insalata": {
-          "$type": "color",
-          "$value": "#aae34d",
-          "$description": "",
-          "scopes": [],
-          "$extensions": {
-            "variableId": "VariableID:43:2302"
-          }
-        },
-        "100-pera": {
-          "$type": "color",
-          "$value": "#c2eb80",
-          "$description": "",
-          "scopes": [],
-          "$extensions": {
-            "variableId": "VariableID:43:2303"
-          }
-        },
-        "75-matcha": {
-          "$type": "color",
-          "$value": "#daf3b3",
-          "$description": "",
-          "scopes": [],
-          "$extensions": {
-            "variableId": "VariableID:43:2304"
-          }
-        },
-        "50-citronella": {
-          "$type": "color",
-          "$value": "#f3fbe6",
-          "$description": "",
-          "scopes": [],
-          "$extensions": {
-            "variableId": "VariableID:43:2305"
-          }
-        }
-      },
-      "rosso": {
-        "500-porpora": {
-          "$type": "color",
-          "$value": "#950013",
-          "$description": "",
-          "scopes": [],
-          "$extensions": {
-            "variableId": "VariableID:43:2306"
-          }
-        },
-        "400-rosso": {
-          "$type": "color",
-          "$value": "#dd000c",
-          "$description": "",
-          "scopes": [],
-          "$extensions": {
-            "variableId": "VariableID:43:2307"
-          }
-        },
-        "300-melograno": {
-          "$type": "color",
-          "$value": "#da1a33",
-          "$description": "",
-          "scopes": [],
-          "$extensions": {
-            "variableId": "VariableID:43:2308"
-          }
-        },
-        "200-pompei": {
-          "$type": "color",
-          "$value": "#e24d60",
-          "$description": "",
-          "scopes": [],
-          "$extensions": {
-            "variableId": "VariableID:43:2309"
-          }
-        },
-        "100-teatro": {
-          "$type": "color",
-          "$value": "#ea808d",
-          "$description": "",
-          "scopes": [],
-          "$extensions": {
-            "variableId": "VariableID:43:2310"
-          }
-        },
-        "75-manhattan": {
-          "$type": "color",
-          "$value": "#f2b3bb",
-          "$description": "",
-          "scopes": [],
-          "$extensions": {
-            "variableId": "VariableID:43:2311"
-          }
-        },
-        "50-blush": {
-          "$type": "color",
-          "$value": "#fae6e8",
-          "$description": "",
-          "scopes": [],
-          "$extensions": {
-            "variableId": "VariableID:43:2312"
-          }
-        }
-      }
-    }
-  },
-  ".robo-colors": {
-    "robo": {
-      "robo-color-gray-1": {
-        "$type": "color",
-        "$value": "#fafafa",
-        "$description": "",
-        "scopes": [
-          "ALL_SCOPES"
-        ],
-        "$extensions": {
-          "variableId": "VariableID:129:2006"
-        }
-      },
-      "robo-color-gray-2": {
-        "$type": "color",
-        "$value": "#d8d0d0",
-        "$description": "",
-        "scopes": [
-          "ALL_SCOPES"
-        ],
-        "$extensions": {
-          "variableId": "VariableID:129:2008"
-        }
-      },
-      "robo-color-gray-3": {
-        "$type": "color",
-        "$value": "#ede7e7",
-        "$description": "",
-        "scopes": [
-          "ALL_SCOPES"
-        ],
-        "$extensions": {
-          "variableId": "VariableID:129:2009"
         }
       }
     }
   },
   "Theme": {
     "OnLight": {
-      "text-theme": {
-        "$type": "color",
-        "$value": "{nen-token.color.text.nero}",
-        "$description": "",
-        "scopes": [
-          "TEXT_FILL"
-        ],
-        "$extensions": {
-          "variableId": "VariableID:197:1181"
-        }
-      },
       "ui-color-theme": {
         "$type": "color",
-        "$value": "{nen-token.color.default.ui-nero}",
-        "$description": "",
-        "scopes": [
-          "STROKE_COLOR",
-          "SHAPE_FILL",
-          "FRAME_FILL"
-        ],
-        "$extensions": {
-          "variableId": "VariableID:197:1182"
-        }
+        "$value": "{nen-token.color.default.ui-nero}"
+      },
+      "text-theme": {
+        "$type": "color",
+        "$value": "{nen-token.color.text.nero}"
       }
     },
     "OnDark": {
-      "text-theme": {
-        "$type": "color",
-        "$value": "{nen-token.color.text.bianco}",
-        "$description": "",
-        "scopes": [
-          "TEXT_FILL"
-        ],
-        "$extensions": {
-          "variableId": "VariableID:197:1181"
-        }
-      },
       "ui-color-theme": {
         "$type": "color",
-        "$value": "{nen-token.color.default.ui-bianco}",
-        "$description": "",
-        "scopes": [
-          "STROKE_COLOR",
-          "SHAPE_FILL",
-          "FRAME_FILL"
-        ],
-        "$extensions": {
-          "variableId": "VariableID:197:1182"
-        }
+        "$value": "{nen-token.color.default.ui-bianco}"
+      },
+      "text-theme": {
+        "$type": "color",
+        "$value": "{nen-token.color.text.bianco}"
       }
     }
   },
   "Typography": {
     "NeN": {
       "heading": {
-        "H1": {
+        "H4-light": {
           "$type": "typography",
           "$value": {
+            "fontSize": "30px",
             "fontFamily": "Everett",
-            "fontWeight": 500,
-            "fontSize": "60px",
-            "lineHeight": "72px",
+            "fontWeight": 300,
+            "lineHeight": "36px",
             "letterSpacing": "0px"
           },
-          "$description": "- H1 Desktop",
-          "$extensions": {
-            "styleId": "S:47ee4bdc5ad6d469b7b72f8f7c5dd08416638ca1,"
-          }
-        },
-        "H2": {
-          "$type": "typography",
-          "$value": {
-            "fontFamily": "Everett",
-            "fontWeight": 500,
-            "fontSize": "50px",
-            "lineHeight": "60px",
-            "letterSpacing": "0px"
-          },
-          "$description": "- H2 Desktop",
-          "$extensions": {
-            "styleId": "S:41b6be82a11de93ca745789621a9c22799cdb29d,"
-          }
-        },
-        "H3": {
-          "$type": "typography",
-          "$value": {
-            "fontFamily": "Everett",
-            "fontWeight": 500,
-            "fontSize": "40px",
-            "lineHeight": "48px",
-            "letterSpacing": "0px"
-          },
-          "$description": "-\nor H1 mobile",
-          "$extensions": {
-            "styleId": "S:841555c88e8eb257b8ddb5ff2063ad1bc9308bf3,"
-          }
+          "$description": "- H4 light Desktop"
         },
         "H4": {
           "$type": "typography",
           "$value": {
+            "fontSize": "30px",
             "fontFamily": "Everett",
             "fontWeight": 500,
-            "fontSize": "30px",
             "lineHeight": "36px",
             "letterSpacing": "0px"
           },
-          "$description": "- H4\n- H2 H3 H4 medium merge on mobile",
-          "$extensions": {
-            "styleId": "S:3bc0c57884c985923c6f8cf481f83509a568246c,"
-          }
+          "$description": "- H4\n- H2 H3 H4 medium merge on mobile"
         },
-        "H4-light": {
+        "H3": {
           "$type": "typography",
           "$value": {
+            "fontSize": "40px",
             "fontFamily": "Everett",
-            "fontWeight": 300,
-            "fontSize": "30px",
-            "lineHeight": "36px",
+            "fontWeight": 500,
+            "lineHeight": "48px",
             "letterSpacing": "0px"
           },
-          "$description": "- H4 light Desktop",
-          "$extensions": {
-            "styleId": "S:a4223b6e83c501365fafd384ca5ff837facf4f4e,"
-          }
+          "$description": "-\nor H1 mobile"
+        },
+        "H2": {
+          "$type": "typography",
+          "$value": {
+            "fontSize": "50px",
+            "fontFamily": "Everett",
+            "fontWeight": 500,
+            "lineHeight": "60px",
+            "letterSpacing": "0px"
+          },
+          "$description": "- H2 Desktop"
+        },
+        "H1": {
+          "$type": "typography",
+          "$value": {
+            "fontSize": "60px",
+            "fontFamily": "Everett",
+            "fontWeight": 500,
+            "lineHeight": "72px",
+            "letterSpacing": "0px"
+          },
+          "$description": "- H1 Desktop"
         }
       },
       "subtitle": {
-        "medium": {
+        "link": {
           "$type": "typography",
           "$value": {
+            "fontSize": "22px",
             "fontFamily": "Everett",
             "fontWeight": 500,
-            "fontSize": "22px",
             "lineHeight": "32px",
             "letterSpacing": "0px"
           },
-          "$description": "or h4 light for mobile",
-          "$extensions": {
-            "styleId": "S:691e90519f9b6a13f00afd807da33ab9075eeeb9,"
-          }
+          "$description": "22"
         },
         "light": {
           "$type": "typography",
           "$value": {
+            "fontSize": "22px",
             "fontFamily": "Everett",
             "fontWeight": 300,
-            "fontSize": "22px",
             "lineHeight": "32px",
             "letterSpacing": "0px"
-          },
-          "$description": "",
-          "$extensions": {
-            "styleId": "S:3e0035edff2b951785fc7ff6b7ec540d395158e5,"
           }
         },
-        "link": {
+        "medium": {
           "$type": "typography",
           "$value": {
+            "fontSize": "22px",
             "fontFamily": "Everett",
             "fontWeight": 500,
-            "fontSize": "22px",
             "lineHeight": "32px",
             "letterSpacing": "0px"
           },
-          "$description": "22",
-          "$extensions": {
-            "styleId": "S:dc27bad26081e3661b8eeb6b9881f154b7475d80,"
-          }
+          "$description": "or h4 light for mobile"
         }
       },
       "paragraph": {
-        "medium": {
+        "link": {
           "$type": "typography",
           "$value": {
+            "fontSize": "18px",
             "fontFamily": "Everett",
             "fontWeight": 500,
-            "fontSize": "18px",
             "lineHeight": "24px",
             "letterSpacing": "0px"
           },
-          "$description": "or mobile subtitle",
-          "$extensions": {
-            "styleId": "S:d033dafcccbe99ca5bfe47cdeef92ccdff6ba0e3,"
-          }
+          "$description": "or mobile subtitle"
         },
         "light": {
           "$type": "typography",
           "$value": {
+            "fontSize": "18px",
             "fontFamily": "Everett",
             "fontWeight": 300,
-            "fontSize": "18px",
             "lineHeight": "24px",
             "letterSpacing": "0px"
           },
-          "$description": "or mobile subtitle",
-          "$extensions": {
-            "styleId": "S:792c1ba03ba7fc7897abc3d23c3b567c3451af49,"
-          }
+          "$description": "or mobile subtitle"
         },
-        "link": {
+        "medium": {
           "$type": "typography",
           "$value": {
+            "fontSize": "18px",
             "fontFamily": "Everett",
             "fontWeight": 500,
-            "fontSize": "18px",
             "lineHeight": "24px",
             "letterSpacing": "0px"
           },
-          "$description": "or mobile subtitle",
-          "$extensions": {
-            "styleId": "S:fa60eafd6c5aae47267feab2113870e4f2ef4cd4,"
-          }
+          "$description": "or mobile subtitle"
         }
       },
       "body": {
-        "medium": {
+        "link": {
           "$type": "typography",
           "$value": {
+            "fontSize": "16px",
             "fontFamily": "Everett",
             "fontWeight": 500,
-            "fontSize": "16px",
             "lineHeight": "24px",
             "letterSpacing": "0px"
           },
-          "$description": "or paragraph mobile",
-          "$extensions": {
-            "styleId": "S:57cbd96486c3a296d363fa2c1b3db5eead1daacf,"
+          "$description": "or paragraph mobile"
+        },
+        "light": {
+          "$type": "typography",
+          "$value": {
+            "fontSize": "16px",
+            "fontFamily": "Everett",
+            "fontWeight": 300,
+            "lineHeight": "24px",
+            "letterSpacing": "0px"
+          },
+          "$description": "or paragraph mobile"
+        },
+        "medium": {
+          "$type": "typography",
+          "$value": {
+            "fontSize": "16px",
+            "fontFamily": "Everett",
+            "fontWeight": 500,
+            "lineHeight": "24px",
+            "letterSpacing": "0px"
+          },
+          "$description": "or paragraph mobile"
+        }
+      },
+      "footnote": {
+        "link": {
+          "$type": "typography",
+          "$value": {
+            "fontSize": "12px",
+            "fontFamily": "Everett",
+            "fontWeight": 500,
+            "lineHeight": "18px",
+            "letterSpacing": "0px"
           }
         },
         "light": {
           "$type": "typography",
           "$value": {
+            "fontSize": "12px",
             "fontFamily": "Everett",
             "fontWeight": 300,
-            "fontSize": "16px",
-            "lineHeight": "24px",
-            "letterSpacing": "0px"
-          },
-          "$description": "or paragraph mobile",
-          "$extensions": {
-            "styleId": "S:582ea66188a6566ed5183b436628920c0b6959c6,"
-          }
-        },
-        "link": {
-          "$type": "typography",
-          "$value": {
-            "fontFamily": "Everett",
-            "fontWeight": 500,
-            "fontSize": "16px",
-            "lineHeight": "24px",
-            "letterSpacing": "0px"
-          },
-          "$description": "or paragraph mobile",
-          "$extensions": {
-            "styleId": "S:818ed97aa2595914c3f6ec08f2b28522976b27d0,"
-          }
-        }
-      },
-      "footnote": {
-        "medium": {
-          "$type": "typography",
-          "$value": {
-            "fontFamily": "Everett",
-            "fontWeight": 500,
-            "fontSize": "12px",
             "lineHeight": "18px",
             "letterSpacing": "0px"
-          },
-          "$description": "",
-          "$extensions": {
-            "styleId": "S:d420850bc9c2582fff9202c13b2f0235acfee2eb,"
           }
         },
         "regular": {
           "$type": "typography",
           "$value": {
+            "fontSize": "12px",
             "fontFamily": "Everett",
             "fontWeight": 400,
-            "fontSize": "12px",
             "lineHeight": "18px",
             "letterSpacing": "0px"
-          },
-          "$description": "",
-          "$extensions": {
-            "styleId": "S:67fcb8fc16634f5ac475926bd7e15eb77b6bd97a,"
           }
         },
-        "light": {
+        "medium": {
           "$type": "typography",
           "$value": {
-            "fontFamily": "Everett",
-            "fontWeight": 300,
             "fontSize": "12px",
-            "lineHeight": "18px",
-            "letterSpacing": "0px"
-          },
-          "$description": "",
-          "$extensions": {
-            "styleId": "S:e75066d17ac8c132ec4969f19eb09bc0443f83c8,"
-          }
-        },
-        "link": {
-          "$type": "typography",
-          "$value": {
             "fontFamily": "Everett",
             "fontWeight": 500,
-            "fontSize": "12px",
             "lineHeight": "18px",
             "letterSpacing": "0px"
-          },
-          "$description": "",
-          "$extensions": {
-            "styleId": "S:2659d9f130f4f3b80e2b0aa022a2bb53e8fc4531,"
           }
         }
       }
     },
     "components": {
       "price-container": {
-        "12-strikethrought": {
+        "big-4": {
           "$type": "typography",
           "$value": {
-            "fontFamily": "Everett",
-            "fontWeight": 400,
-            "fontSize": "12px",
-            "lineHeight": "auto",
-            "letterSpacing": "0px"
-          },
-          "$description": "",
-          "$extensions": {
-            "styleId": "S:db92fdefc3a7fa9aa40c693aaea3b5a82c9cadef,"
-          }
-        },
-        "12-300": {
-          "$type": "typography",
-          "$value": {
-            "fontFamily": "Everett",
-            "fontWeight": 300,
-            "fontSize": "12px",
-            "lineHeight": "auto",
-            "letterSpacing": "0px"
-          },
-          "$description": "",
-          "$extensions": {
-            "styleId": "S:c2f7e74aec7eba083854f687e0ec5411f8644aab,"
-          }
-        },
-        "18-400": {
-          "$type": "typography",
-          "$value": {
-            "fontFamily": "Everett",
-            "fontWeight": 400,
-            "fontSize": "18px",
-            "lineHeight": "auto",
-            "letterSpacing": "0px"
-          },
-          "$description": "",
-          "$extensions": {
-            "styleId": "S:f776667b76ef21fbdd8831df54752520a459a82a,"
-          }
-        },
-        "22-400": {
-          "$type": "typography",
-          "$value": {
-            "fontFamily": "Everett",
-            "fontWeight": 400,
-            "fontSize": "22px",
-            "lineHeight": "auto",
-            "letterSpacing": "0px"
-          },
-          "$description": "",
-          "$extensions": {
-            "styleId": "S:9be516c71db8ad11509a8530eae6575037743a60,"
-          }
-        },
-        "22-500": {
-          "$type": "typography",
-          "$value": {
-            "fontFamily": "Everett",
-            "fontWeight": 500,
-            "fontSize": "22px",
-            "lineHeight": "auto",
-            "letterSpacing": "0px"
-          },
-          "$description": "",
-          "$extensions": {
-            "styleId": "S:9a1cc1b715e1f5eae51e2d23fe76bce0f0eb39fd,"
-          }
-        },
-        "30-strikethrought": {
-          "$type": "typography",
-          "$value": {
-            "fontFamily": "Everett",
-            "fontWeight": 400,
-            "fontSize": "30px",
-            "lineHeight": "auto",
-            "letterSpacing": "0px"
-          },
-          "$description": "",
-          "$extensions": {
-            "styleId": "S:ccef7807fcdc72edec151108d5de6b07720de19b,"
-          }
-        },
-        "40-strikethrought": {
-          "$type": "typography",
-          "$value": {
-            "fontFamily": "Everett",
-            "fontWeight": 400,
             "fontSize": "40px",
-            "lineHeight": "auto",
-            "letterSpacing": "0px"
-          },
-          "$description": "",
-          "$extensions": {
-            "styleId": "S:7c50aee6c30c4053448303097f675d4ce7b9f83d,"
-          }
-        },
-        "50-strikethrought": {
-          "$type": "typography",
-          "$value": {
-            "fontFamily": "Everett",
-            "fontWeight": 400,
-            "fontSize": "50px",
-            "lineHeight": "auto",
-            "letterSpacing": "0px"
-          },
-          "$description": "",
-          "$extensions": {
-            "styleId": "S:276e7060d12130dfbc6753f90fd849fbee9c4086,"
-          }
-        },
-        "big-1": {
-          "$type": "typography",
-          "$value": {
             "fontFamily": "Everett",
             "fontWeight": 500,
-            "fontSize": "140px",
             "lineHeight": "auto",
             "letterSpacing": "0px"
-          },
-          "$description": "",
-          "$extensions": {
-            "styleId": "S:585c5acd44478286bdd396e8150f6068818fa9dc,"
-          }
-        },
-        "big-2": {
-          "$type": "typography",
-          "$value": {
-            "fontFamily": "Everett",
-            "fontWeight": 500,
-            "fontSize": "110px",
-            "lineHeight": "auto",
-            "letterSpacing": "0px"
-          },
-          "$description": "",
-          "$extensions": {
-            "styleId": "S:4c9be9a41b2e536fa795e6bcaa18850f79316307,"
           }
         },
         "big-3": {
           "$type": "typography",
           "$value": {
+            "fontSize": "60px",
             "fontFamily": "Everett",
             "fontWeight": 500,
-            "fontSize": "60px",
             "lineHeight": "auto",
             "letterSpacing": "0px"
-          },
-          "$description": "",
-          "$extensions": {
-            "styleId": "S:92d1b2d0817c04fbd7b470ed3408365604e41938,"
           }
         },
-        "big-4": {
+        "big-2": {
           "$type": "typography",
           "$value": {
+            "fontSize": "110px",
             "fontFamily": "Everett",
             "fontWeight": 500,
-            "fontSize": "40px",
             "lineHeight": "auto",
             "letterSpacing": "0px"
-          },
-          "$description": "",
-          "$extensions": {
-            "styleId": "S:647aa0f1b883a70b5765e649cca4a0a2ea260f65,"
+          }
+        },
+        "big-1": {
+          "$type": "typography",
+          "$value": {
+            "fontSize": "140px",
+            "fontFamily": "Everett",
+            "fontWeight": 500,
+            "lineHeight": "auto",
+            "letterSpacing": "0px"
+          }
+        },
+        "50-strikethrought": {
+          "$type": "typography",
+          "$value": {
+            "fontSize": "50px",
+            "fontFamily": "Everett",
+            "fontWeight": 400,
+            "lineHeight": "auto",
+            "letterSpacing": "0px"
+          }
+        },
+        "40-strikethrought": {
+          "$type": "typography",
+          "$value": {
+            "fontSize": "40px",
+            "fontFamily": "Everett",
+            "fontWeight": 400,
+            "lineHeight": "auto",
+            "letterSpacing": "0px"
+          }
+        },
+        "30-strikethrought": {
+          "$type": "typography",
+          "$value": {
+            "fontSize": "30px",
+            "fontFamily": "Everett",
+            "fontWeight": 400,
+            "lineHeight": "auto",
+            "letterSpacing": "0px"
+          }
+        },
+        "22-500": {
+          "$type": "typography",
+          "$value": {
+            "fontSize": "22px",
+            "fontFamily": "Everett",
+            "fontWeight": 500,
+            "lineHeight": "auto",
+            "letterSpacing": "0px"
+          }
+        },
+        "22-400": {
+          "$type": "typography",
+          "$value": {
+            "fontSize": "22px",
+            "fontFamily": "Everett",
+            "fontWeight": 400,
+            "lineHeight": "auto",
+            "letterSpacing": "0px"
+          }
+        },
+        "18-400": {
+          "$type": "typography",
+          "$value": {
+            "fontSize": "18px",
+            "fontFamily": "Everett",
+            "fontWeight": 400,
+            "lineHeight": "auto",
+            "letterSpacing": "0px"
+          }
+        },
+        "12-300": {
+          "$type": "typography",
+          "$value": {
+            "fontSize": "12px",
+            "fontFamily": "Everett",
+            "fontWeight": 300,
+            "lineHeight": "auto",
+            "letterSpacing": "0px"
+          }
+        },
+        "12-strikethrought": {
+          "$type": "typography",
+          "$value": {
+            "fontSize": "12px",
+            "fontFamily": "Everett",
+            "fontWeight": 400,
+            "lineHeight": "auto",
+            "letterSpacing": "0px"
           }
         }
       }
     }
   },
   "Grids": {
-    "sm": {
+    "xl": {
       "$type": "grid",
       "$value": {
-        "columnCount": 6,
-        "columnGap": "16px",
-        "columnWidth": "44px"
-      }
-    },
-    "md": {
-      "$type": "grid",
-      "$value": {
-        "columnCount": 6,
         "columnGap": "32px",
-        "columnWidth": "91px"
+        "columnCount": 12,
+        "columnWidth": "72px"
       }
     },
     "lg": {
       "$type": "grid",
       "$value": {
-        "columnCount": 12,
         "columnGap": "32px",
+        "columnCount": 12,
         "columnWidth": "51px"
       }
     },
-    "xl": {
+    "md": {
       "$type": "grid",
       "$value": {
-        "columnCount": 12,
         "columnGap": "32px",
-        "columnWidth": "72px"
+        "columnCount": 6,
+        "columnWidth": "91px"
+      }
+    },
+    "sm": {
+      "$type": "grid",
+      "$value": {
+        "columnGap": "16px",
+        "columnCount": 6,
+        "columnWidth": "44px"
       }
     }
   },
@@ -2255,25 +776,14 @@
       "Robo-Floating": {
         "$type": "shadow",
         "$value": {
-          "inset": false,
-          "color": "#00000033",
-          "offsetX": "0px",
-          "offsetY": "4px",
           "blur": "5px",
-          "spread": "0px"
+          "color": "#00000033",
+          "inset": false,
+          "spread": "0px",
+          "offsetX": "0px",
+          "offsetY": "4px"
         }
       }
     }
-  },
-  "$meta": {
-    "useDTCGKeys": true,
-    "colorMode": "hex",
-    "variableCollections": [
-      "nen-token",
-      ".global",
-      ".robo-colors",
-      "Theme"
-    ],
-    "createdAt": "2023-10-18T13:49:16.606Z"
   }
 }

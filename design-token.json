@@ -182,7 +182,7 @@
       "default": {
         "ui-bianco": {
           "$type": "color",
-          "$value": "{.global.global-color.neutro.bianco.$value}",
+          "$value": "{.global.global-color.neutro.bianco}",
           "$description": "background white",
           "scopes": [
             "STROKE_COLOR",
@@ -195,7 +195,7 @@
         },
         "ui-nero": {
           "$type": "color",
-          "$value": "{.global.global-color.neutro.nero-puro.$value}",
+          "$value": "{.global.global-color.neutro.nero-puro}",
           "$description": "main black",
           "scopes": [
             "STROKE_COLOR",
@@ -208,7 +208,7 @@
         },
         "ui-arancione": {
           "$type": "color",
-          "$value": "{.global.global-color.arancione.400-arancione.$value}",
+          "$value": "{.global.global-color.arancione.400-arancione}",
           "$description": "",
           "scopes": [
             "STROKE_COLOR",
@@ -221,7 +221,7 @@
         },
         "ui-blu-dual": {
           "$type": "color",
-          "$value": "{.global.global-color.blu.400-blu-elettrico.$value}",
+          "$value": "{.global.global-color.blu.400-blu-elettrico}",
           "$description": "main blue dual",
           "scopes": [
             "STROKE_COLOR",
@@ -234,7 +234,7 @@
         },
         "ui-ciano-gas": {
           "$type": "color",
-          "$value": "{.global.global-color.ciano.400-ciano.$value}",
+          "$value": "{.global.global-color.ciano.400-ciano}",
           "$description": "main cyan gas",
           "scopes": [
             "STROKE_COLOR",
@@ -247,7 +247,7 @@
         },
         "ui-giallo-luce": {
           "$type": "color",
-          "$value": "{.global.global-color.giallo.400-giallo-limone.$value}",
+          "$value": "{.global.global-color.giallo.400-giallo-limone}",
           "$description": "main yellow luce",
           "scopes": [
             "STROKE_COLOR",
@@ -260,7 +260,7 @@
         },
         "ui-lilla": {
           "$type": "color",
-          "$value": "{.global.global-color.lilla.400-lilla.$value}",
+          "$value": "{.global.global-color.lilla.400-lilla}",
           "$description": "main lilla",
           "scopes": [
             "STROKE_COLOR",
@@ -273,7 +273,7 @@
         },
         "ui-magenta": {
           "$type": "color",
-          "$value": "{.global.global-color.magenta.400-magenta.$value}",
+          "$value": "{.global.global-color.magenta.400-magenta}",
           "$description": "main magenta",
           "scopes": [
             "STROKE_COLOR",
@@ -286,7 +286,7 @@
         },
         "ui-pisello": {
           "$type": "color",
-          "$value": "{.global.global-color.pisello.400-pisello.$value}",
+          "$value": "{.global.global-color.pisello.400-pisello}",
           "$description": "",
           "scopes": [
             "STROKE_COLOR",
@@ -299,7 +299,7 @@
         },
         "ui-verde": {
           "$type": "color",
-          "$value": "{.global.global-color.verde.400-verdone.$value}",
+          "$value": "{.global.global-color.verde.400-verdone}",
           "$description": "",
           "scopes": [
             "STROKE_COLOR",
@@ -312,7 +312,7 @@
         },
         "ui-viola": {
           "$type": "color",
-          "$value": "{.global.global-color.viola.400-viola-melanzana.$value}",
+          "$value": "{.global.global-color.viola.400-viola-melanzana}",
           "$description": "main purple",
           "scopes": [
             "STROKE_COLOR",
@@ -325,7 +325,7 @@
         },
         "ui-rosso": {
           "$type": "color",
-          "$value": "{.global.global-color.rosso.400-rosso.$value}",
+          "$value": "{.global.global-color.rosso.400-rosso}",
           "$description": "error main red",
           "scopes": [
             "STROKE_COLOR",
@@ -338,7 +338,7 @@
         },
         "ui-grigio": {
           "$type": "color",
-          "$value": "{.global.global-color.neutro.grigio.$value}",
+          "$value": "{.global.global-color.neutro.grigio}",
           "$description": "",
           "scopes": [
             "STROKE_COLOR",
@@ -354,7 +354,7 @@
         "light": {
           "ui-blu-light": {
             "$type": "color",
-            "$value": "{.global.global-color.blu.50-polvere-di-fata.$value}",
+            "$value": "{.global.global-color.blu.50-polvere-di-fata}",
             "$description": "",
             "scopes": [
               "STROKE_COLOR",
@@ -367,7 +367,7 @@
           },
           "ui-ciano-light": {
             "$type": "color",
-            "$value": "{.global.global-color.ciano.50 - Alice.$value}",
+            "$value": "{.global.global-color.ciano.50 - Alice}",
             "$description": "",
             "scopes": [
               "STROKE_COLOR",
@@ -380,7 +380,7 @@
           },
           "ui-giallo-light": {
             "$type": "color",
-            "$value": "{.global.global-color.giallo.50-zinco.$value}",
+            "$value": "{.global.global-color.giallo.50-zinco}",
             "$description": "",
             "scopes": [
               "STROKE_COLOR",
@@ -393,7 +393,7 @@
           },
           "ui-lilla-light": {
             "$type": "color",
-            "$value": "{.global.global-color.lilla.50-fumo.$value}",
+            "$value": "{.global.global-color.lilla.50-fumo}",
             "$description": "",
             "scopes": [
               "STROKE_COLOR",
@@ -406,7 +406,7 @@
           },
           "ui-magenta-light": {
             "$type": "color",
-            "$value": "{.global.global-color.magenta.50-unicorno.$value}",
+            "$value": "{.global.global-color.magenta.50-unicorno}",
             "$description": "",
             "scopes": [
               "STROKE_COLOR",
@@ -419,7 +419,7 @@
           },
           "ui-pisello-light": {
             "$type": "color",
-            "$value": "{.global.global-color.pisello.50-citronella.$value}",
+            "$value": "{.global.global-color.pisello.50-citronella}",
             "$description": "",
             "scopes": [
               "STROKE_COLOR",
@@ -432,7 +432,7 @@
           },
           "ui-verde-light": {
             "$type": "color",
-            "$value": "{.global.global-color.verde.50-porcellana.$value}",
+            "$value": "{.global.global-color.verde.50-porcellana}",
             "$description": "",
             "scopes": [
               "STROKE_COLOR",
@@ -445,7 +445,7 @@
           },
           "ui-viola-light": {
             "$type": "color",
-            "$value": "{.global.global-color.viola.50-nebbia.$value}",
+            "$value": "{.global.global-color.viola.50-nebbia}",
             "$description": "",
             "scopes": [
               "STROKE_COLOR",
@@ -458,7 +458,7 @@
           },
           "ui-rosso-light": {
             "$type": "color",
-            "$value": "{.global.global-color.rosso.50-blush.$value}",
+            "$value": "{.global.global-color.rosso.50-blush}",
             "$description": "",
             "scopes": [
               "STROKE_COLOR",
@@ -473,7 +473,7 @@
         "mid": {
           "ui-blu-mid": {
             "$type": "color",
-            "$value": "{.global.global-color.blu.75-carta-da-zucchero.$value}",
+            "$value": "{.global.global-color.blu.75-carta-da-zucchero}",
             "$description": "{hover or focus}",
             "scopes": [
               "STROKE_COLOR",
@@ -486,7 +486,7 @@
           },
           "ui-giallo-mid": {
             "$type": "color",
-            "$value": "{.global.global-color.giallo.75-crema.$value}",
+            "$value": "{.global.global-color.giallo.75-crema}",
             "$description": "{hover or focus}",
             "scopes": [
               "STROKE_COLOR",
@@ -499,7 +499,7 @@
           },
           "ui-ciano-mid": {
             "$type": "color",
-            "$value": "{.global.global-color.ciano.75-divano-della-nonna.$value}",
+            "$value": "{.global.global-color.ciano.75-divano-della-nonna}",
             "$description": "{hover or focus}",
             "scopes": [
               "STROKE_COLOR",
@@ -512,7 +512,7 @@
           },
           "ui-rosso-mid": {
             "$type": "color",
-            "$value": "{.global.global-color.rosso.75-manhattan.$value}",
+            "$value": "{.global.global-color.rosso.75-manhattan}",
             "$description": "{hover or focus}",
             "scopes": [
               "STROKE_COLOR",
@@ -525,7 +525,7 @@
           },
           "ui-viola-mid": {
             "$type": "color",
-            "$value": "{.global.global-color.viola.75-malva.$value}",
+            "$value": "{.global.global-color.viola.75-malva}",
             "$description": "{hover or focus}",
             "scopes": [
               "STROKE_COLOR",
@@ -538,7 +538,7 @@
           },
           "ui-lilla-mid": {
             "$type": "color",
-            "$value": "{.global.global-color.lilla.75-pervinca.$value}",
+            "$value": "{.global.global-color.lilla.75-pervinca}",
             "$description": "{hover or focus}",
             "scopes": [
               "STROKE_COLOR",
@@ -551,7 +551,7 @@
           },
           "ui-magenta-mid": {
             "$type": "color",
-            "$value": "{.global.global-color.magenta.75-torta.$value}",
+            "$value": "{.global.global-color.magenta.75-torta}",
             "$description": "{hover or focus}",
             "scopes": [
               "STROKE_COLOR",
@@ -566,7 +566,7 @@
         "dark": {
           "ui-blu-dark": {
             "$type": "color",
-            "$value": "{.global.global-color.blu.500-jeans.$value}",
+            "$value": "{.global.global-color.blu.500-jeans}",
             "$description": "{pressed}",
             "scopes": [
               "STROKE_COLOR",
@@ -579,7 +579,7 @@
           },
           "ui-giallo-dark": {
             "$type": "color",
-            "$value": "{.global.global-color.giallo.500-oro.$value}",
+            "$value": "{.global.global-color.giallo.500-oro}",
             "$description": "{pressed}",
             "scopes": [
               "STROKE_COLOR",
@@ -592,7 +592,7 @@
           },
           "ui-ciano-dark": {
             "$type": "color",
-            "$value": "{.global.global-color.ciano.500-foglia-di-te.$value}",
+            "$value": "{.global.global-color.ciano.500-foglia-di-te}",
             "$description": "{pressed}",
             "scopes": [
               "STROKE_COLOR",
@@ -605,7 +605,7 @@
           },
           "ui-rosso-dark": {
             "$type": "color",
-            "$value": "{.global.global-color.rosso.500-porpora.$value}",
+            "$value": "{.global.global-color.rosso.500-porpora}",
             "$description": "{pressed}",
             "scopes": [
               "STROKE_COLOR",
@@ -618,7 +618,7 @@
           },
           "ui-viola-dark": {
             "$type": "color",
-            "$value": "{.global.global-color.viola.500-persia.$value}",
+            "$value": "{.global.global-color.viola.500-persia}",
             "$description": "{pressed}",
             "scopes": [
               "STROKE_COLOR",
@@ -631,7 +631,7 @@
           },
           "ui-lilla-dark": {
             "$type": "color",
-            "$value": "{.global.global-color.lilla.500-prince.$value}",
+            "$value": "{.global.global-color.lilla.500-prince}",
             "$description": "{pressed}",
             "scopes": [
               "STROKE_COLOR",
@@ -644,7 +644,7 @@
           },
           "ui-magenta-dark": {
             "$type": "color",
-            "$value": "{.global.global-color.magenta.500-livorno.$value}",
+            "$value": "{.global.global-color.magenta.500-livorno}",
             "$description": "{pressed} magenta",
             "scopes": [
               "STROKE_COLOR",
@@ -657,7 +657,7 @@
           },
           "ui-verde-dark": {
             "$type": "color",
-            "$value": "{.global.global-color.verde.500-bottiglia.$value}",
+            "$value": "{.global.global-color.verde.500-bottiglia}",
             "$description": "",
             "scopes": [
               "STROKE_COLOR",
@@ -673,7 +673,7 @@
       "text": {
         "bianco": {
           "$type": "color",
-          "$value": "{.global.global-color.neutro.bianco.$value}",
+          "$value": "{.global.global-color.neutro.bianco}",
           "$description": "",
           "scopes": [
             "TEXT_FILL"
@@ -684,7 +684,7 @@
         },
         "nero": {
           "$type": "color",
-          "$value": "{.global.global-color.neutro.nero-puro.$value}",
+          "$value": "{.global.global-color.neutro.nero-puro}",
           "$description": "",
           "scopes": [
             "TEXT_FILL"
@@ -695,7 +695,7 @@
         },
         "disabled": {
           "$type": "color",
-          "$value": "{.global.global-color.neutro.grigio.$value}",
+          "$value": "{.global.global-color.neutro.grigio}",
           "$description": "",
           "scopes": [
             "TEXT_FILL"
@@ -706,7 +706,7 @@
         },
         "error": {
           "$type": "color",
-          "$value": "{.global.global-color.rosso.400-rosso.$value}",
+          "$value": "{.global.global-color.rosso.400-rosso}",
           "$description": "",
           "scopes": [
             "TEXT_FILL"
@@ -717,7 +717,7 @@
         },
         "success": {
           "$type": "color",
-          "$value": "{.global.global-color.verde.400-verdone.$value}",
+          "$value": "{.global.global-color.verde.400-verdone}",
           "$description": "",
           "scopes": [
             "TEXT_FILL"
@@ -728,7 +728,7 @@
         },
         "link": {
           "$type": "color",
-          "$value": "{.global.global-color.blu.400-blu-elettrico.$value}",
+          "$value": "{.global.global-color.blu.400-blu-elettrico}",
           "$description": "",
           "scopes": [
             "TEXT_FILL"
@@ -958,7 +958,7 @@
         "margin": {
           "xl": {
             "$type": "dimension",
-            "$value": "{nen-token.spacing.6xl.$value}",
+            "$value": "{nen-token.spacing.6xl}",
             "$description": "margin for desktop xl",
             "scopes": [
               "GAP"
@@ -969,7 +969,7 @@
           },
           "lg": {
             "$type": "dimension",
-            "$value": "{nen-token.spacing.md.$value}",
+            "$value": "{nen-token.spacing.md}",
             "$description": "margin for desktop small",
             "scopes": [
               "GAP"
@@ -980,7 +980,7 @@
           },
           "md": {
             "$type": "dimension",
-            "$value": "{nen-token.spacing.md.$value}",
+            "$value": "{nen-token.spacing.md}",
             "$description": "margin for tablet",
             "scopes": [
               "GAP"
@@ -991,7 +991,7 @@
           },
           "sm": {
             "$type": "dimension",
-            "$value": "{nen-token.spacing.xs.$value}",
+            "$value": "{nen-token.spacing.xs}",
             "$description": "margin for mobile",
             "scopes": [
               "GAP"
@@ -1728,7 +1728,7 @@
     "OnLight": {
       "text-theme": {
         "$type": "color",
-        "$value": "{nen-token.color.text.nero.$value}",
+        "$value": "{nen-token.color.text.nero}",
         "$description": "",
         "scopes": [
           "TEXT_FILL"
@@ -1739,7 +1739,7 @@
       },
       "ui-color-theme": {
         "$type": "color",
-        "$value": "{nen-token.color.default.ui-nero.$value}",
+        "$value": "{nen-token.color.default.ui-nero}",
         "$description": "",
         "scopes": [
           "STROKE_COLOR",
@@ -1754,7 +1754,7 @@
     "OnDark": {
       "text-theme": {
         "$type": "color",
-        "$value": "{nen-token.color.text.bianco.$value}",
+        "$value": "{nen-token.color.text.bianco}",
         "$description": "",
         "scopes": [
           "TEXT_FILL"
@@ -1765,7 +1765,7 @@
       },
       "ui-color-theme": {
         "$type": "color",
-        "$value": "{nen-token.color.default.ui-bianco.$value}",
+        "$value": "{nen-token.color.default.ui-bianco}",
         "$description": "",
         "scopes": [
           "STROKE_COLOR",
@@ -2274,6 +2274,6 @@
       ".robo-colors",
       "Theme"
     ],
-    "createdAt": "2023-10-18T13:43:06.422Z"
+    "createdAt": "2023-10-18T13:47:40.843Z"
   }
 }
